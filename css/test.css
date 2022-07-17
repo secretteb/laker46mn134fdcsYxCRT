@@ -1,0 +1,334 @@
+.uicon {
+    /* padding-left: 5%; */
+    padding-bottom: 15px;
+    font-size: 50px;
+    transition: all 0.25s ease-in-out;
+}
+
+.uicon:hover {
+    color: rgb(175, 175, 175);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+#videobcg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+ }
+
+ .gradient{
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, rgb(89, 0, 255) 0%, rgb(162, 0, 255) 25%, rgb(162, 0, 255) 75%, rgb(89, 0, 255) 100%);
+    /* background-image: linear-gradient(to left,#ff6600, #ff0000, #ff00d4, #2600ff, #00aeff, #00ffd4, #00ff00, #d4ff00, #ffd400, #ff6600); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    background-size: 25%;
+    background-position: -100%;
+
+    animation: animatedText 15s infinite;
+  }
+
+  @keyframes animatedText{
+    to{
+      background-position: 100%;
+    }
+  }
+
+.normalicon {
+    transition: all .3s ease-in-out;
+}
+.normalicon:hover {
+    transform: scale(1.15);
+}
+
+.allahicon {
+    transform: translateX(30px);
+    transition: all .3s ease-in-out;
+}
+.allahicon:hover {
+    transform: scale(1.15) translateX(26.5px);
+}
+
+.pricing-item {
+    background: #001524;
+    box-shadow: 8px -8px 5px 4px rgb(0 0 0 / 18%);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 40px 0px;
+  }
+
+  .pricing-item.active .pricing-header {
+    position: relative;
+  }
+
+  .pricing-item.active .pricing-header .pricing-title {
+    color: #e6e6e6;
+  }
+
+  .pricing-item.active .pricing-body .price-wrapper {
+    background-image: linear-gradient(127deg, #53216e 0%, #2f1977 91%);
+  }
+
+  .pricing-item.active .pricing-body .price-wrapper .currency {
+    color: #fff;
+  }
+
+  .pricing-item.active .pricing-body .price-wrapper .price {
+    color: #fff;
+  }
+
+  .pricing-item.active .pricing-body .price-wrapper .period {
+    color: #fff;
+  }
+
+  .pricing-item .pricing-header {
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .pricing-item .pricing-header .pricing-title {
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #e6e6e6;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+
+  .pricing-item .pricing-body {
+    margin-bottom: 40px;
+  }
+
+  .pricing-item .pricing-body .price-wrapper {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background-image: linear-gradient(127deg, #2f1977 0%, #1e0f4d 91%);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+  }
+
+  .pricing-item .pricing-body .price-wrapper .currency {
+    height: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    top: -1px;
+  }
+
+  .pricing-item .pricing-body .price-wrapper .price {
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+  }
+
+  .pricing-item .pricing-body .price-wrapper .period {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    letter-spacing: 0.88px;
+  }
+
+  .pricing-item .pricing-body .list li {
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #9c9c9c;
+    letter-spacing: 0.25px;
+    text-decoration: line-through;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .pricing-item .pricing-body .list li.active {
+    color: #9c9c9c;
+    text-decoration: none;
+  }
+
+  .pricing-item .pricing-footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  a.main-button {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #4b06ca;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  a.main-button:hover {
+    background-color: #5403bd;
+  }
+
+  /* footer */
+.footer-basic {
+    padding:20px 0;
+    background-color:#001625;
+    color:#c7c7c7;
+  }
+
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    line-height:1.337;
+    margin-bottom:0;
+  }
+
+  .footer-basic li {
+    padding:0 4.20px;
+  }
+
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.88;
+  }
+
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:10px;
+  }
+
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(141, 141, 141);
+    margin-bottom:0;
+  }
+
+  .footer-basic .madeby {
+    text-align:center;
+    font-size:15px;
+    color:rgb(128, 128, 128);
+    margin-bottom:0;
+  }
+
+  .footer-basic .madeby a {
+    color:rgb(187, 187, 187);
+  }
+  .footer-basic .madeby a:hover {
+    color:#527eff;
+  }
+
+  .heart {
+    color: red;
+  }
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+.grün {
+    color: #009c00;
+}
+
+.nig {
+  transition: all 0.3s ease-in-out;
+}
+.nig:hover {
+  transform: scale(1.1);
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+.heart
+{
+  color: red;
+  animation: heartbeat 1.2s infinite;
+}
+
+.hs {
+  transition: all 0.3s ease-in-out;
+}
+.hs:hover {
+  transform: scale(1.1);
+}
